@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    height: 500px;
+    background-color: #FF69B4;
+}
+
+.pill-container {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.pill_T {
+    background: radial-gradient(circle at center, #69e1ff 60%, #ffffff 20%, white 5%, white 5%);
+    margin-left: 3.3%;
+    margin-top: 50%;
+    font-size: 14px;
+    width: 30%;
+    height: 20%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 250%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pill_B {
+    background: radial-gradient(circle at center, #69e1ff 60%, #ffffff 20%, white 5%, white 5%);
+    box-shadow: indianred 0 0 0 5px #000;
+    margin-left: 3.3%;
+    margin-top: 10%;
+    margin-bottom: 50%;
+    font-size: 14px;
+    width: 30%;
+    height: 20%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
